@@ -60,5 +60,19 @@ background:url(/influencer-gear-main/images/Circle\ design.svg) ;
 .four{
     color: gray;
 }
+.pic-section{
+    display: flex;
+    flex-wrap: wrap;
+}
+.pic{
+    border: 15px solid whitesmoke;
+    width: 400px;
+height: 476px;
+left: 196px;
+top: 1035px;
+}
+
+
+
 
 
