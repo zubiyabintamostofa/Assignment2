@@ -65,7 +65,7 @@ background:url(/influencer-gear-main/images/Circle\ design.svg) ;
     flex-wrap: wrap;
 }
 .pic{
-    border: 15px solid whitesmoke;
+    border: 15px solid rgb(245, 236, 236);
     width: 400px;
 height: 476px;
 left: 196px;
@@ -79,7 +79,10 @@ footer {
     .five{
         color: cornsilk;
     }
-    
+    .seven
+    {color: darkmagenta;
+        text-align: right;
+    }
 
 
 
