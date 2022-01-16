@@ -30,7 +30,7 @@ width: 440px;
 height: 414px;
 left: 835px;
 top: 60px;
-background:url(/influencer-gear-main/images/Circle\ design.svg) ;
+background:url(influencer-gear-main/images/Circle\ design.svg) ;
 }
 .two{
     font-style: normal;
@@ -83,6 +83,11 @@ footer {
     {color: darkmagenta;
         text-align: right;
     }
+    @media (max-width:1199px) {
+        
+        
+    }
+    
 
 
 
