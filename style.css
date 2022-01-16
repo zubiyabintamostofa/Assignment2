@@ -5,9 +5,13 @@
 
 /* common style or utilities */
 body{
+    
    
 font-family: 'Poppins', sans-serif;
 background-color:whitesmoke;
+}
+img{
+    max-width: 100%;
 }
 
 .star-icon{
@@ -17,13 +21,16 @@ background-color:whitesmoke;
 
 .one{
   
-   position: relative;
-width: 582px;
-
-left: 150px;
-top: 150px;
-}
-.one img{
+    display: flex;
+    justify-content: space-between;
+    
+    gap: 20px;
+    padding: 0 10%;
+ }
+ .one .content{
+     width: 700px;
+ }
+/* .one img{
 
 position: absolute;
 width: 440px;
@@ -31,7 +38,7 @@ height: 414px;
 left: 835px;
 top: 60px;
 background:url(influencer-gear-main/images/Circle\ design.svg) ;
-}
+} */
 .two{
     font-style: normal;
     font-weight: bold;
@@ -51,7 +58,7 @@ background:url(influencer-gear-main/images/Circle\ design.svg) ;
 
 }
 .three{
-    margin-top: 300px;
+    margin-top: 30px;
     text-align: center;
 }
 .fa{
@@ -85,7 +92,11 @@ footer {
     }
     @media (max-width:1199px) {
         
-        
+        .one{flex-direction: column;
+         }
+         .one .content{
+             width: 100%;
+         }
     }
     
 
