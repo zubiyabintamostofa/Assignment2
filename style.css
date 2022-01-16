@@ -1,0 +1,56 @@
+
+
+/* fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Luxurious+Roman&family=Poppins:wght@500&display=swap');
+
+/* common style or utilities */
+body{
+   
+font-family: 'Poppins', sans-serif;
+background-color:whitesmoke;
+}
+
+.star-icon{
+    color: yellow;
+    font-size: 30px;
+}
+
+.one{
+  
+    position: absolute;
+width: 582px;
+height: 270px;
+left: 150px;
+top: 150px;
+}
+.one img{
+
+position: absolute;
+width: 440px;
+height: 414px;
+left: 835px;
+top: 60px;
+background:url(/influencer-gear-main/images/Circle\ design.svg) ;
+}
+.two{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 52px;
+}
+.link-button{
+    display: inline-block;
+    text-decoration: none;
+    background-color: hotpink;
+    margin-top: 20px;
+    padding:10px 40px ;
+    color: whitesmoke;
+    font-weight: 700px;
+    border-radius: 6px;
+
+
+
+}
+
+
+
+
