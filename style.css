@@ -17,9 +17,9 @@ background-color:whitesmoke;
 
 .one{
   
-    position: absolute;
+   position: relative;
 width: 582px;
-height: 270px;
+
 left: 150px;
 top: 150px;
 }
@@ -50,7 +50,10 @@ background:url(/influencer-gear-main/images/Circle\ design.svg) ;
 
 
 }
-
+.three{
+    margin-top: 300px;
+    text-align: center;
+}
 
 
 
